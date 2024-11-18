@@ -11,7 +11,7 @@ export class EmpleadoService {
 
   selectedEmpleado: Empleado;
   empleados:Empleado[];
-  readonly URL_API ="https://despliegue-sepia.vercel.app/api/empleados"
+  readonly URL_API ="https://despliegue-ochre.vercel.app/api/empleados";
 
   constructor(private http:HttpClient) { 
 
